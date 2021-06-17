@@ -6,12 +6,25 @@ var special = ["\u0021", "\u0022", "\u0023", "\u0024", "\u0025", "\u0026", "\u00
 var lower = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var upper = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 
+console.log(length)
+
 // Write password to the #password input
 function writePassword() {
-  length = window.prompt("Please input desired password length");
-  if (!length) {
+  userChoice = window.prompt("Please input desired password length in numerals");
+  if (!userChoice) {
     return;
   }
+  if (userChoice < length[0]) {
+    window.alert("password must be at least 8 characters long")
+    return;
+  } else if (userChoice > length[123]) {
+    window.alert("Password cannot be more than 128 characters long")
+    return;
+  } else (userChoice >= length[121]);
+  window.confirm("Do you want your password to contain numbers?");
+
+
+
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
 
