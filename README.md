@@ -15,7 +15,7 @@ Over the last week, I have gone about setting up the Javascript for a website th
 
 ##Screenshot of the deployed site
 
-
+![website screenshot](https://github.com/Kalmnir/Random-password-generator/blob/main/screenshot/deployed-site.png)
 
 ##Link to deployed site
 https://kalmnir.github.io/Random-password-generator/
