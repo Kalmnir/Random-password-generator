@@ -18,3 +18,4 @@ Over the last week, I have gone about setting up the Javascript for a website th
 
 
 ##Link to deployed site
+https://kalmnir.github.io/Random-password-generator/
