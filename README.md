@@ -4,7 +4,7 @@ To that end, a random password generator can be an amazing tool to use to get a 
 
 Over the last week, I have gone about setting up the Javascript for a website that does just that.
 
-##Features of the site
+## Features of the site
 
 ```
 -When the generate password is hit, user is given a prompt to select the length of the password
@@ -13,9 +13,9 @@ Over the last week, I have gone about setting up the Javascript for a website th
 
 ```
 
-##Screenshot of the deployed site
+## Screenshot of the deployed site
 
 ![website screenshot](https://github.com/Kalmnir/Random-password-generator/blob/main/screenshot/deployed-site.png)
 
-##Link to deployed site
+## Link to deployed site
 https://kalmnir.github.io/Random-password-generator/
